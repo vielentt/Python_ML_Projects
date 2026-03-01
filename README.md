@@ -1,32 +1,38 @@
 # Python Machine Learning Проекты
 
-Здесь представлено моё портфолио ML проектов. У каждого проекта есть файл README с подробным описанием, использованными алгоритмами и библиотеками, а так же с сылками на файлы и (по возможности) датасеты.
+Здесь представлено моё портфолио ML проектов. У каждого проекта есть файл README с подробным описанием, использованными алгоритмами и библиотеками, а так же с сылками на файлы и датасеты.
 
-1. [Phone Reviews Semantic Analysis](/Phone_Reviews_Semantic/README.md)
+1. [Моscow Housing](/Moscow_Housing/README.md)
+
+Предсказание стоимости квартиры в Москве по реальным данным.
+
+*Выполнен разведочный анализ данных, проанализирована целевая переменная, признаки, зависимости. Построена модель CatboostRegressor. Проанализирована важность признаков для модели.*
+
+2. [Phone Reviews Semantic Analysis](/Phone_Reviews_Semantic/README.md)
 
 Семантический анализ рускоязычных отзывов.
 
 *Очистка текста от пунктуации, стоп-слов, мешок слов с помощью CountVectorizer, визуализации plotly.express, worldcloud, использование sklearn*
 
-2. [Taxi Prices](/Taxi_Prices/README.md)
+3. [Taxi Prices](/Taxi_Prices/README.md)
 
 Предсказание типов ценообразования для поездок такси. 
 
 *EDA, многоклассовая классификация с использованием библиотеки sklearn*
 
-3. [Market Basket Analysis](/Market_Basket_Optimisation/README.md)
+4. [Market Basket Analysis](/Market_Basket_Optimisation/README.md)
 
 Aссоциативный анализ датасета транзакций с целью улучшения эффективности таргетированной рекламы магазина.
 
 *Использованы алгоритмы Apriori и FP-Growth*
 
-4. [Exam Prediction](/Python_Exam_Prediction/README.md)
+5. [Exam Prediction](/Python_Exam_Prediction/README.md)
 
 Предсказание прохождения экзамена.
 
 *Сравнены разные алгоритмы классификации, использованы библиотеки sklearn и CatBoost*
 
-5. [Customer Review](/Customer_Review_Clust/README.md)
+6. [Customer Review](/Customer_Review_Clust/README.md)
 
 Кластеризация отзывов магазина для адаптации рекламы под запросы покупателей.
 
